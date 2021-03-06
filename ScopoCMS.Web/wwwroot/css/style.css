@@ -1,0 +1,528 @@
+* {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #e9e3e3 !important;
+}
+
+
+.containerCust {
+    background: #cccfd1;
+    box-shadow: 20px 20px 60px #adb0b2, -20px -20px 60px #ebeef0;
+    padding:20px;
+ 
+   
+}
+
+@media(max-width:800px) {
+    .containerCust {
+        padding: 50px;
+    }
+    img{
+        height:300px;
+        width:100%;
+    }
+}
+
+.header {
+    margin-top: 20px;
+    padding-top: 20px;
+ 
+}
+
+.topHeader {
+    padding-top: 20px;
+    display: flex;
+    margin-bottom: 50px;
+    justify-content: space-around;
+}
+
+.navBar {
+    margin-top: 25px;
+}
+
+
+.supportUs {
+    width: 100%;
+    margin-top: 50px;
+}
+
+    .supportUs > button {
+        width: 100%;
+    }
+
+.subscribe {
+    padding: 10px;
+    flex: 0.2;
+}
+
+#subscribe {
+    background: #cccfd1;
+    box-shadow: 20px 20px 60px #adb0b2, -20px -20px 60px #ebeef0;
+    background-color: whitesmoke;
+}
+
+.topHeader > img {
+    margin-left: -15%;
+    flex: 0.8;
+}
+
+.picContainer {
+    margin-top:50px;
+    display: flex;
+    flex-direction: column;
+    
+    width: inherit;
+}
+
+.singlePic {
+    margin-top: 20px;
+    flex: 0.6;
+}
+.singlePicContent{
+    display:flex;
+    justify-content:flex-start;
+    align-items:flex-start;
+}
+.singlePicContent>img{
+    height:300px;
+    width:40%;
+}
+
+
+
+.dualPic {
+    flex: 0.4;
+    margin-top: 20px;
+    display: flex;
+    height: 20vh;
+}
+
+.dualPicContent {
+    padding: 15px;
+    width: 100%;
+    height: 20vh;
+    background-color: lightblue;
+}
+
+.latestContents {
+    display: flex;
+    flex-flow: wrap;
+}
+
+.latestContent {
+    padding: 10px;
+    height:auto;
+}
+
+    .latestContent > img {
+        height: 250px;
+        width: 350px;
+    }
+
+    .latestContent > div {
+        height:300px;
+        width:400px;
+        margin-top:30px;
+        overflow:hidden;
+    }
+
+.latestContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.currentIssueContainer {
+    margin-top: 50px;
+}
+
+.currentIssueContents {
+    display: flex;
+    justify-content: space-between;
+}
+
+.currentIssueImageContent, .currentIssueBuyContent {
+    width: 50%;
+}
+
+.currentIssueBuyContent {
+    margin-left: 20px;
+}
+
+.currentIssueImageContent > img {
+    height: 500px;
+    object-fit: cover;
+    width: 100%;
+}
+
+.webnmostpopularContainer {
+    display: flex;
+    margin-top: 60px;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+@media(max-width:800px) {
+    .webnmostpopularContainer {
+        flex-direction: column;
+    }
+    .web {
+        width: 100%;
+        margin-top: 40px;
+    }
+    .web>h1{
+
+    }
+}
+
+
+
+.web > h1 {
+   
+    text-align: center;
+}
+
+.mostpopular > h1 {
+    align-self: center;
+    text-align: center;
+}
+
+.webContent {
+    display: flex;
+    margin-top: 10px;
+    margin-top: 40px;
+}
+
+    .webContent > img {
+        height: 150px;
+        width: 150px;
+    }
+
+.web {
+    width: 50%;
+    margin-top: 40px;
+    padding:20px;
+}
+
+.mostpopular {
+    width: 50%;
+    margin-top: 40px;
+    padding:20px;
+}
+
+.mostPopularContent {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+
+@media(max-width:800px) {
+    .mostPopularContent {
+        flex-direction: column;
+    }
+    .mostpopular{
+        width:100%;
+    }
+}
+
+.mostpopular > h1 {
+    text-align: center;
+}
+
+.webContentItem {
+    margin-left: 10px;
+}
+
+.mostpopularleftContent > img {
+    width: 100px;
+    height: 100px;
+}
+
+.mostpopularrightContent > img {
+    width: 100px;
+    height: 100px;
+}
+
+.mostpopularleftContent {
+    display: flex;
+    margin-top: 40px;
+}
+
+.mostpopularrightContent {
+    display: flex;
+    margin-top: 40px;
+}
+
+.photoGalleryContainer {
+    margin-top: 50px;
+    width: 100%;
+}
+
+    .photoGalleryContainer > h1 {
+        text-align: center;
+    }
+
+.footer {
+    margin-top: 50px;
+    padding: 20px;
+    display: flex;
+    background-color: tan;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.fullContainer {
+    display: flex;
+}
+
+@media(max-width:800px) {
+    .fullContainer {
+        flex-direction: column;
+    }
+}
+
+@media(max-width:800px) {
+    .leftcontents {
+        flex-direction: column;
+    }
+
+    .popularContents {
+        overflow: hidden;
+        object-fit: contain;
+    }
+}
+
+.leftContainer {
+    object-fit: contain;
+    padding: 35px;
+}
+
+.rightContainer {
+    padding: 35px;
+}
+
+    .rightContainer > h5 {
+        margin-bottom: 20px;
+        font-size: 25px;
+    }
+
+.popularContents {
+    margin-bottom: 40px;
+}
+
+    .popularContents > img {
+        margin-bottom: 8px;
+    }
+
+.leftContainer > img {
+    height: 300px;
+    width: 100%;
+    background: #999494;
+    box-shadow: 9px 9px 18px #777373, -9px -9px 18px #bbb5b5;
+}
+
+.leftcontents {
+    display: flex;
+    margin-top: 30px;
+}
+
+.left_leftContent {
+    margin-right: 30px;
+}
+
+    .left_leftContent > img {
+        height: 100px;
+        width: 100px;
+        border-radius: 50px;
+    }
+
+.popularContents > img {
+    height: 200px;
+    width: 300px;
+}
+
+.relatedPosts {
+    padding: 30px;
+}
+
+.relatedPost > img {
+    height: 200px;
+    width: 300px;
+    flex: 0.4;
+    object-fit: contain;
+}
+
+.popular {
+    height: fit-content;
+}
+
+.popularText > a {
+    text-decoration: none;
+    color: black;
+}
+
+.relatedPost > h5 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.relatedPost {
+    display: flex;
+    margin-top: 30px;
+    padding: 25px;
+    justify-content: space-around;
+    background: #999494;
+    box-shadow: 9px 9px 18px #5d5a5a, -9px -9px 18px #d5cece;
+    transition: 1ms ease;
+    object-fit: contain;
+}
+
+    .relatedPost:hover {
+        background: #999494;
+        box-shadow: inset 9px 9px 18px #5d5a5a, inset -9px -9px 18px #d5cece;
+    }
+
+@media(max-width:800px) {
+    .leftContainer {
+        padding: 10px;
+    }
+
+        .leftContainer > h1 {
+            font-size: 25px;
+            font-weight: bold;
+            margin-bottom: 30px;
+        }
+
+    .leftcontents {
+        align-items: center;
+    }
+
+    .relatedPost {
+        flex-direction: column;
+    }
+
+        .relatedPost > a {
+            color: brown !important;
+        }
+
+    .relatedpostText > a > h1 {
+        font-size: 18px;
+        color: brown !important;
+    }
+
+    .contentContainer {
+        flex-direction: column;
+    }
+
+    .leftcontentInnerContainer {
+        flex-direction: column;
+    }
+
+    .context {
+        flex-direction: column;
+    }
+
+    .rightcontentinnerContainer {
+        flex-direction: column;
+    }
+
+    .relatedPost > img {
+        height: 100px;
+        width: 230px;
+        flex: 0.4;
+        object-fit: contain;
+    }
+}
+
+.relatedPost > a {
+    color: brown !important;
+    font-size: 22px;
+}
+
+.relatedpostText > a > h1 {
+    font-size: 22px;
+    color: brown !important;
+}
+
+.relatedPosts > h5 {
+    text-align: center;
+}
+
+.relatedpostText > a:hover {
+    text-decoration: none;
+    color: rgb(21, 66, 214);
+}
+
+.relatedpostText {
+    flex: 0.6;
+    margin-right: 30px;
+}
+
+    .relatedpostText > span {
+        text-transform: uppercase;
+    }
+
+.contentContainer {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 50px;
+}
+
+.leftcontentContainer {
+    flex: 0.7;
+}
+
+.rightcontentContainer {
+    flex: 0.3;
+}
+
+.left_blogContent {
+    padding: 25px;
+    color: black;
+}
+
+
+
+.leftcontentInnerContainer > img {
+    height: 200px;
+    width: 300px;
+}
+
+.leftcontentInnerContainer {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.rightcontentinnerContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 20px;
+}
+
+.context {
+    display: flex;
+    margin-left: 20px;
+    padding: 20px;
+    flex-direction: column;
+}
+
+.rightcontentinnerContainer > img {
+    height: 90px;
+    width: 90px;
+    margin-right: 20px;
+}
+
+.context > p {
+    font: 12px;
+}
